@@ -1,0 +1,22 @@
+{
+  "name": "react-motion",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://nattasak.github.io/test-react-move",
+  "dependencies": {
+    "d3-ease": "^1.0.3",
+    "gh-pages": "^1.0.0",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-move": "^2.6.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
